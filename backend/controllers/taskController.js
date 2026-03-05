@@ -1,6 +1,6 @@
 const Task = require('../models/Task');
 
-const getTasks = async  (requestAnimationFrame, res) =>{
+const getTasks = async (req, res) =>{
     try{
         const tasks = await Task.find().sort({createdAt: -1});
         res.json(tasks);
