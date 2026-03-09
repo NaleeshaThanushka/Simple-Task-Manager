@@ -26,3 +26,5 @@ module.exports = function override(config) {
     
     return config;
 };
+
+//CRA won't let you edit webpack. config-overrides.js breaks that lock. 🔓
