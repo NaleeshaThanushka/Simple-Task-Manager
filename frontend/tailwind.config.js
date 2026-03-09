@@ -8,3 +8,5 @@ module.exports = {
   },
   plugins: [],
 }
+
+//tailwind.config.js tells Tailwind — where to look, what to keep, and what's custom. 🎨
